@@ -10,7 +10,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-header {
+header{
     background-color:#7C71FF;
     padding: 15px 40px;
 
@@ -31,7 +31,7 @@ header {
     text-decoration: none;
 }
 
-.menuNavegacao li button btinicio {
+.menuNavegacao li button .btinicio{
     background-color: #200065;
     color: white;
 }
@@ -53,16 +53,24 @@ header {
 }
 
 
-section h1, h2, h3, h4 {
+section h1{
     color: #200065;
     text-align: center;
     margin: 20px 0 0;
     font-family: 'Abril fatface', sans-serif;
 }
 
-.pagina_inicio {
+section  h2, h3{
+    color: #200065;
+    text-align: center;
+    margin: 20px 20px;
+    font-family: 'Abril fatface', sans-serif;
+}
+
+.pagina_inicio{
     text-align: center;
 }
+
 .pagina_inicio p{
     color: #200065;
     text-align: center;
@@ -73,6 +81,12 @@ section h1, h2, h3, h4 {
 .pagina_inicio h1{
  
     font-size: 30px;
+}
+
+.linkLoja{
+ 
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .listaImagens{
@@ -106,7 +120,7 @@ section h1, h2, h3, h4 {
     margin-bottom: 8px;
 }
 
-.imagemClientes {
+.imagemClientes{
     width: 90px;
     margin: 10px 0; 
     border: 2px solid #1e1e1e;
@@ -134,8 +148,38 @@ textarea{
     width: 15%;
     display: block;
     margin: 10px auto;
-
 }
+
+#pedidos{
+    width: 100%;
+    height: 300px;
+}
+#pedidos table{
+    margin: auto;
+    width: 95%;
+    border: 1px solid #1E1E1E;
+    text-align: left;
+    border-collapse: collapse;
+    
+    background-color: #fff;
+}
+
+#pedidos td{
+    padding: 8px;
+    border: 1px solid #1E1E1E;
+}
+
+#pedidos thead{
+    background-color:#7C71FF;
+    color: #1e1e1e;
+}
+
+#pedidos th{
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid #1E1E1E;
+}
+
 footer {
         text-align: left;
         padding: 40px;
